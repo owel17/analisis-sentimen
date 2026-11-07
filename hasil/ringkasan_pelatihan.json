@@ -1,0 +1,23 @@
+{
+  "baris_masuk": 350,
+  "baris_kosong_setelah_preprocessing": 0,
+  "baris_dipakai": 350,
+  "jumlah_latih": 280,
+  "jumlah_uji": 70,
+  "positif_latih": 227,
+  "negatif_latih": 53,
+  "positif_uji": 57,
+  "negatif_uji": 13,
+  "test_size": 0.2,
+  "random_state": 42,
+  "stratify": true,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "jumlah_fitur_tfidf": 7076,
+  "kernel_svm": "linear",
+  "class_weight": null,
+  "file_model": "svm_sentimen.joblib",
+  "file_tfidf": "tfidf_vectorizer.joblib"
+}

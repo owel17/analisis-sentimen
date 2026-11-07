@@ -1,0 +1,16 @@
+{
+  "jumlah_baris_mentah": 1000,
+  "baris_tanpa_teks": 541,
+  "baris_dengan_teks": 459,
+  "bahasa_indonesia_dan_punya_teks": 388,
+  "duplikat_teks_diabaikan": 5,
+  "teks_sama_dengan_bintang_berbeda": 0,
+  "setelah_duplikat": 383,
+  "rating_3_dikeluarkan": 33,
+  "data_klasifikasi": 350,
+  "positif": 284,
+  "negatif": 66,
+  "tanggal_paling_awal": "2025-07-08 12:08:33.213000+00:00",
+  "tanggal_paling_akhir": "2026-11-03 22:48:20.793000+00:00",
+  "file_hasil": "data_berlabel.csv"
+}

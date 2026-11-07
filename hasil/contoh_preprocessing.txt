@@ -1,0 +1,9 @@
+CONTOH PREPROCESSING
+Contoh di bawah memakai kalimat buatan, bukan teks ulasan pengguna.
+Jumlah baris: 350
+Baris yang menjadi kosong setelah preprocessing: 0
+
+Uji fungsi pada kalimat buatan (bukan data penelitian):
+  Asli : Tidak bagus, airnya kurang bersih dan belum layak! https://contoh.com
+  Hasil: tidak bagus air kurang bersih belum layak
+  Kata negasi pada hasil uji: belum, kurang, tidak
