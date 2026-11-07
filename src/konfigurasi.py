@@ -16,6 +16,8 @@ PATH_PREPROCESSING = AKAR / "dataset" / "data_preprocessing.csv"
 PATH_LATIH = AKAR / "dataset" / "data_latih.csv"
 PATH_UJI = AKAR / "dataset" / "data_uji.csv"
 PATH_UJI_PREDIKSI = AKAR / "dataset" / "data_uji_prediksi.csv"
+# Ulasan yang diketik pengunjung. Skrip pelatihan tidak membaca berkas ini.
+PATH_ULASAN_PENGGUNA = AKAR / "dataset" / "ulasan_pengguna.csv"
 
 PATH_MODEL = AKAR / "models" / "svm_sentimen.joblib"
 PATH_TFIDF = AKAR / "models" / "tfidf_vectorizer.joblib"

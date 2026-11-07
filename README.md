@@ -37,6 +37,19 @@ Fungsi tiap script:
 - `src/modeling.py` membagi data 80:20, membuat TF-IDF dari data latih, melatih SVM, dan menyimpan model di `models/`.
 - `src/evaluation.py` menghitung metrik pada data uji dan menyimpan gambar di `hasil/`.
 
+## Ulasan kolam
+
+Pengunjung membuka halaman Kolam tanpa login, memilih salah satu dari lima kolam,
+lalu mengirim bintang dan teks ulasan. Ulasan baru disimpan di
+`dataset/ulasan_pengguna.csv`. Model SVM yang sudah ada memberi label sentimen.
+Berkas penelitian, model, dan metrik evaluasi tidak berubah.
+
+Admin membuka menu titik tiga di kanan atas, memilih Login admin, lalu masuk
+untuk melihat ringkasan seluruh kolam dan halaman penelitian. Salin
+`.streamlit/secrets.toml.example` menjadi
+`.streamlit/secrets.toml`, lalu isi nama dan kata sandi. Berkas yang berisi
+kata sandi tidak dimasukkan ke git.
+
 ## Menjalankan dashboard
 
 Setelah kelima perintah di atas berhasil:
@@ -48,3 +61,9 @@ python -m streamlit run app.py
 Browser akan membuka aplikasi. Jika tidak, buka alamat yang muncul di terminal, biasanya `http://localhost:8501`.
 
 `app.py` hanya membaca dataset dan model yang sudah jadi. Dashboard tidak melatih ulang model.
+
+python -m pip install -r requirements.txt
+
+
+python -m streamlit run app.py
+http://localhost:8501
